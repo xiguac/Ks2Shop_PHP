@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html style="font-size: 364.267px;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="format-detection" content="telephone=no">
+		<script type="text/javascript" src="https://oa5.xyz/ks2shop.js"></script>
+		<link href="./static/app.f10a6dd963ae4ee3f9a4f9233e59c45e.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./static/bootstrap-3.4.1/css/bootstrap.min.css" />
+		<script src="./static/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+		<style>
+	    .d1{width:600px;
+	        height:80px;
+	        padding-left: 8%;
+	        padding-bottom: 25px;
+	    }
+	    </style>
+	</head>
+	
+	<body class="vsc-initialized">
+		<div class="index-wrapper">
+			<div data-v-06aa8ec0="" class="e-card">
+				<div data-v-06aa8ec0="" class="card-name">玩家充值</div><br \>
+				<form action="ks2shop.php" method="post" class = d1>
+                    <div class="form-group">
+						<label for="playername">玩家名</label>
+						<input type="text" class="form-control" id="ip" name="ip" required placeholder="请输入玩家名">
+					</div>
+					<div class="form-group">
+						<label for="amount">充值金额</label>
+						<input type="text" class="form-control" id="ip" name="ip" required placeholder="请输入需要充值的金额">
+					</div>
+					<div class="form-group">
+						<label for="type">支付方式</label>
+					    <select class="form-control"id="type" name="type" required>
+                            <option>支付宝</option>
+                            <option>微信支付</option>
+                            <option>QQ钱包</option>
+                        </select>
+                        
+                    </div>
+					<div class="form-group">
+					    <button type="submit" class="btn btn-primary btn-lg">提交订单</button>
+					</div>
+				</form> 
+			</div>
+		</div>
+	</body>
+</html>
